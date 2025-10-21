@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-10-21T01:28:42 IST" name="Surefire suite" finished-at="2025-10-21T01:29:19 IST" duration-ms="37266">
+    <groups>
+    </groups>
+    <test started-at="2025-10-21T01:28:42 IST" name="Surefire test" finished-at="2025-10-21T01:29:19 IST" duration-ms="37266">
+      <class name="tests.ProductWorkflowTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ProductWorkflowTest@21e360a]" started-at="2025-10-21T01:28:42 IST" name="setUp" finished-at="2025-10-21T01:28:49 IST" duration-ms="6630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testProductWorkflow()[pri:0, instance:tests.ProductWorkflowTest@21e360a]" started-at="2025-10-21T01:28:49 IST" name="testProductWorkflow" finished-at="2025-10-21T01:29:19 IST" duration-ms="30551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductWorkflow -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductWorkflowTest@21e360a]" started-at="2025-10-21T01:29:19 IST" name="tearDown" finished-at="2025-10-21T01:29:19 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ProductWorkflowTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
