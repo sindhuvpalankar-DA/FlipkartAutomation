@@ -1,13 +1,13 @@
-# 🛒 Flipkart Automation Testing Framework
+# Flipkart Automation Testing Framework
 
-### 📘 Overview
+### Overview
 This project automates key user workflows on the **Flipkart e-commerce website** using **Selenium WebDriver**, **TestNG**, and **Java**.  
 It follows the **Page Object Model (POM)** design pattern for better maintainability and scalability.  
 The framework supports **screenshot capture**, **exception handling**, and **Jenkins CI/CD** integration.
 
 ---
 
-## 🚀 Features
+## Features
 - End-to-end automation of Flipkart workflow:
   - Product search and sorting by price
   - Brand filter and RAM filter selection
@@ -21,7 +21,7 @@ The framework supports **screenshot capture**, **exception handling**, and **Jen
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 | Category | Tools / Technologies |
 |-----------|----------------------|
 | Language | Java |
@@ -36,4 +36,20 @@ The framework supports **screenshot capture**, **exception handling**, and **Jen
 
 ---
 
-## 📂 Project Structure
+## Project Structure
+
+FlipkartAutomation/
+│
+├── base/
+│ └── BaseTest.java
+│
+├── pages/
+│ ├── HomePage.java
+│ ├── SearchResultsPage.java
+│ └── ProductPage.java
+│
+├── tests/
+│ └── ProductWorkflowTest.java
+│
+├── pom.xml
+└── README.md
